@@ -197,8 +197,19 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 3rem;
-    color: #18405a;
+    color: #2f2e2e;
     letter-spacing: -0.5px;
+}
+
+@media screen and (max-width: 470px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -214,11 +225,4 @@ a:hover {
     .servicios .serv-contenido {
         width: 70%;
         margin: auto;
-    }
-
-    @media screen and (max-width: 400px) {
-        .hero h1 {
-            font-size: 4rem;
-        }
-
     }
