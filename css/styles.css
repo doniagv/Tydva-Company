@@ -107,14 +107,9 @@ a:hover {
 }
 
 .hero a {
-    color: white;
-
+    color: rgba(255, 255, 255, 0.733);
 }
 
-.icon-hero {
-
-    color: rgba(255, 255, 255, 0.726) !important;
-}
 
 .arrow {
     text-align: center;
@@ -195,7 +190,7 @@ a:hover {
 
 .serv-contenido h3 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3rem;
     color: #2f2e2e;
     letter-spacing: -0.5px;
