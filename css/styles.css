@@ -11,8 +11,11 @@ body {
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-    /* 1rem = 10px */
+    scroll-behavior: smooth
+        /* 1rem = 10px */
 }
+
+
 
 *,
 *:before,
@@ -144,12 +147,12 @@ a:hover {
 
 
 /* Servicios */
-#servicios {
+#services {
     margin-top: 15rem;
     text-align: center;
 }
 
-#servicios hr {
+#services hr {
     border: 5px solid #e53539;
     display: inline-block;
     text-align: center;
