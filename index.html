@@ -10,13 +10,123 @@
       integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/d591ab4a44.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand marca" href="#">
+        <img src="img/logop.png" width="100" alt="imagen logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item navli">
+            <a class="nav-link" href="https://wa.link/d4q3ai" target="_blank"
+              ><i class="fab fa-whatsapp mr-3"></i>222 401 1354</a
+            >
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Galería</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Proyectos</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>Tecnología y Diseño en Vidrio</h1>
+        <div class="arrow bounce">
+          <a class="fas fa-chevron-down fa-2x" href="#servicios"></a>
+        </div>
+      </div>
+    </section>
+    <section id="servicios">
+      <div class="container-fluid">
+        <h2>Nuestros servicios</h2>
+        <hr />
+        <div class="contenedor-servicios">
+          <div class="servicios">
+            <div class="imagen">
+              <img loading="lazy" src="img\Servicios\domos2_1.jpg" alt="" />
+            </div>
+            <div class="serv-contenido">
+              <h3>Domos</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                nesciunt reiciendis laborum numquam, doloribus corporis,
+                distinctio voluptas iusto voluptatem veniam.
+              </p>
+            </div>
+          </div>
+          <div class="servicios">
+            <div class="serv-contenido">
+              <h3>Barandales</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                nesciunt reiciendis laborum numquam, doloribus corporis,
+                distinctio voluptas iusto voluptatem veniam.
+              </p>
+            </div>
+            <div class="imagen">
+              <img loading="lazy" src="img\Servicios\barandal2.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="servicios">
+            <div class="imagen">
+              <img loading="lazy" src="img\Servicios\fachada.jpeg" alt="" />
+            </div>
+            <div class="serv-contenido">
+              <h3>Fachadas</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                nesciunt reiciendis laborum numquam, doloribus corporis,
+                distinctio voluptas iusto voluptatem veniam.
+              </p>
+            </div>
+          </div>
+          <div class="servicios">
+            <div class="serv-contenido">
+              <h3>Diseño Esmerilado</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+                nesciunt reiciendis laborum numquam, doloribus corporis,
+                distinctio voluptas iusto voluptatem veniam.
+              </p>
+            </div>
+            <div class="imagen">
+              <img loading="lazy" src="img\Servicios\esmerilado_1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
