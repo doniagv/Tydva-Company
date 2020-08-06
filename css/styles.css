@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -37,12 +39,20 @@ img {
 }
 
 h2 {
-    color: #949494;
+    color: #666666;
     font-size: 5rem;
     text-align: center;
     font-family: 'Montserrat',
         sans-serif;
     font-weight: 500;
+}
+
+h3 {
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: -0.5px;
 }
 
 p {
@@ -92,7 +102,7 @@ p {
     letter-spacing: -0.5;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: #e6e8e7;
     font-size: 6rem;
     font-weight: 500;
     margin-top: 0;
@@ -186,20 +196,64 @@ a:hover {
     padding: 3rem 1rem;
     font-weight: 400;
     margin: 1.5rem;
-    color: rgb(87, 82, 87);
+    color: #18252e;
     font-size: 1.8rem;
     letter-spacing: 0.5px;
     line-height: 2;
 }
 
 .serv-contenido h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    color: #2f2e2e;
-    letter-spacing: -0.5px;
+    color: #5a737a;
     margin-bottom: 2rem;
 }
+
+/* #cotiza {
+    margin-top: 15rem;
+}
+
+.cot {
+    text-align: right;
+
+}
+
+.info-cotiza {
+    background-color: #a3a3a3;
+    padding: 1rem 2rem;
+    margin: 0;
+}
+
+.info-cotiza h3 {
+    color: #18252e;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.info-cotiza hr {
+    border: 5px solid #e21c21;
+    width: 20%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.info-cotiza p {
+    margin-right: 20rem;
+}
+
+.info-cotiza span {
+    font-family: 'Noto Sans',
+        sans-serif;
+    color: #010206;
+    font-weight: 700;
+    font-size: 5rem;
+    padding-right: 2rem;
+}
+
+.imagen-cotiza {
+    padding: 0;
+    margin: 0;
+} */
+
 
 @media screen and (max-width: 470px) {
     .hero h1 {
@@ -234,3 +288,59 @@ a:hover {
         width: 70%;
         margin: auto;
     }
+}
+
+
+#cotiza {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#cotiza h3 {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #e6e8e7;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.cot-con {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    background-color: rgba(102, 102, 102, 0.842);
+
+}
+
+#cotiza span {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: #edcd1f;
+    transform: scale(1.1);
+}
+
+#cotiza span:hover {
+    transform: scale(1.3);
+}
+
+#cotiza p {
+    font-size: 1.8rem;
+    color: #e6e8e7;
+}
+
+.pasos-c {
+
+    padding: 7rem;
+}
+
+
+
+.service-21.wrap-service21-box {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left center;
+}
