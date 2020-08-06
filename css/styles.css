@@ -86,7 +86,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(9, 76, 114, 0.644), rgba(9, 76, 114, 0.644)),
+    background-image: linear-gradient(rgba(28, 46, 59, 0.678), rgba(28, 46, 59, 0.678)),
         url(../img/backM2.jpg);
     background-size: cover;
     background-position: center center;
@@ -207,89 +207,6 @@ a:hover {
     margin-bottom: 2rem;
 }
 
-/* #cotiza {
-    margin-top: 15rem;
-}
-
-.cot {
-    text-align: right;
-
-}
-
-.info-cotiza {
-    background-color: #a3a3a3;
-    padding: 1rem 2rem;
-    margin: 0;
-}
-
-.info-cotiza h3 {
-    color: #18252e;
-    font-size: 5rem;
-    font-weight: 500;
-}
-
-.info-cotiza hr {
-    border: 5px solid #e21c21;
-    width: 20%;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    margin-left: 5rem;
-}
-
-.info-cotiza p {
-    margin-right: 20rem;
-}
-
-.info-cotiza span {
-    font-family: 'Noto Sans',
-        sans-serif;
-    color: #010206;
-    font-weight: 700;
-    font-size: 5rem;
-    padding-right: 2rem;
-}
-
-.imagen-cotiza {
-    padding: 0;
-    margin: 0;
-} */
-
-
-@media screen and (max-width: 470px) {
-    .hero h1 {
-        font-size: 4rem;
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    h3 {
-        font-size: 2.5rem;
-    }
-
-    .serv-contenido {
-        font-size: 1.6rem;
-    }
-
-}
-
-@media (min-width: 1100px) {
-    .servicios {
-        text-align: left;
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        /* Crea el grid de imagen a la izquierda y la informacion a la derecha */
-        margin-left: 4rem;
-        margin-right: 4rem;
-    }
-
-    .servicios .serv-contenido {
-        width: 70%;
-        margin: auto;
-    }
-}
-
 
 #cotiza {
     margin-top: 4rem;
@@ -319,6 +236,8 @@ a:hover {
     font-size: 6rem;
     font-weight: bold;
     padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     color: #edcd1f;
     transform: scale(1.1);
 }
@@ -337,10 +256,84 @@ a:hover {
     padding: 7rem;
 }
 
-
-
 .service-21.wrap-service21-box {
     background-size: cover;
     background-attachment: fixed;
     background-position: left center;
+}
+
+#proyectos {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+#proyectos hr {
+    border: 5px solid #edcd1f;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.col-pr {
+    margin-bottom: 3rem;
+}
+
+#proyectos img {
+    opacity: 0.7;
+    transition: all .2s ease-in-out;
+}
+
+#proyectos img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+@media screen and (max-width: 470px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .serv-contenido {
+        font-size: 1.6rem;
+    }
+
+    #cotiza span {
+        font-size: 5rem;
+    }
+
+    #cotiza h3 {
+        font-size: 4rem;
+    }
+
+    #proyectos img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1100px) {
+    .servicios {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        /* Crea el grid de imagen a la izquierda y la informacion a la derecha */
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .servicios .serv-contenido {
+        width: 70%;
+        margin: auto;
+    }
 }
