@@ -251,6 +251,12 @@ a:hover {
     color: #e6e8e7;
 }
 
+#cotiza button {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+
+}
+
 .pasos-c {
 
     padding: 7rem;
@@ -324,6 +330,8 @@ a:hover {
         font-size: 3rem;
         margin-bottom: 0;
     }
+
+
 
     #proyectos img {
         height: 100%;
