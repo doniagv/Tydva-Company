@@ -50,7 +50,7 @@ img {
 }
 
 h2 {
-    color: var(--dark-grey);
+    color: var(--dark-blue);
     font-size: 5rem;
     text-align: center;
     font-family: 'Montserrat',
@@ -336,38 +336,41 @@ a:hover {
 
 }
 
-/* .c-img {
-    position: relative;
+#contacto {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+
+
+#contacto hr {
+    border: 5px solid #e53539;
+
     text-align: center;
-    color: #18252eb6;
-
+    width: 8%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 
-.c-img {
-    font-size: 4rem;
-    font-weight: 500;
-    color: var(--dark-blue);
+#contacto h3 {
+    color: var(--dark-grey);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding-left: 3rem;
 }
 
-
-
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#contacto p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding-left: 3rem;
 }
 
-#proyectos img {
-    opacity: 0.5;
-    transition: all .2s ease-in-out;
+.p-dir {
+    padding-bottom: 3rem;
 }
-
-#proyectos img:hover {
-    transform: scale(1.1);
-    opacity: 1;
-} */
-
 
 
 @media screen and (max-width: 470px) {
@@ -404,11 +407,14 @@ a:hover {
         margin-bottom: 0;
     }
 
-
-
     #proyectos img {
         height: 100%;
         width: 100%;
+    }
+
+
+    #contacto h3 {
+        margin-top: 5rem;
     }
 }
 
