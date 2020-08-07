@@ -407,8 +407,12 @@ a:hover {
 
     .serv-contenido p {
         font-size: 1.8rem;
+        padding-bottom: 6rem;
     }
 
+    .serv-contenido h3 {
+        padding-top: 5rem;
+    }
 
     #cotiza span {
         font-size: 4rem;
@@ -433,6 +437,15 @@ a:hover {
 
     #contacto h3 {
         margin-top: 5rem;
+    }
+
+    #footer img {
+        width: 17px;
+        padding-bottom: 2rem;
+    }
+
+    #footer p {
+        font-size: 1.2rem;
     }
 }
 
