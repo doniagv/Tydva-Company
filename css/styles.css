@@ -372,6 +372,24 @@ a:hover {
     padding-bottom: 3rem;
 }
 
+#footer {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#footer a {
+    padding-right: 2rem;
+}
+
+#footer a:last-of-type {
+    padding-right: 0;
+}
+
+#footer p {
+    color: var(--light-grey);
+    word-spacing: 0.3rem;
+}
+
 
 @media screen and (max-width: 470px) {
     .hero h1 {
