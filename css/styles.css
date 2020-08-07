@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
 
+:root {
+    --black-color: #010206;
+    --dark-blue: #18252e;
+    --blue-grey: #5a737a;
+    --light-blue: #77aec3;
+    --dark-grey: #666666;
+    --light-grey: #a3a3a3;
+    --grey-color: #b6bbb5;
+    --white-color: #e6e8e7;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +50,7 @@ img {
 }
 
 h2 {
-    color: #666666;
+    color: var(--dark-grey);
     font-size: 5rem;
     text-align: center;
     font-family: 'Montserrat',
@@ -102,7 +113,7 @@ p {
     letter-spacing: -0.5;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: #e6e8e7;
+    color: var(--white-color);
     font-size: 6rem;
     font-weight: 500;
     margin-top: 0;
@@ -155,7 +166,6 @@ a:hover {
 }
 
 
-
 /* Servicios */
 #services {
     margin-top: 5rem;
@@ -203,10 +213,11 @@ a:hover {
 }
 
 .serv-contenido h3 {
-    color: #5a737a;
+    color: var(--blue-grey);
     margin-bottom: 2rem;
 }
 
+/* Seccion para cotizar */
 
 #cotiza {
     margin-top: 4rem;
@@ -218,7 +229,7 @@ a:hover {
     margin-bottom: 2rem;
     font-size: 4.5rem;
     font-weight: 700;
-    color: #e6e8e7;
+    color: var(--white-color);
     word-spacing: 0.5rem;
     letter-spacing: 0.2rem;
 }
@@ -248,7 +259,7 @@ a:hover {
 
 #cotiza p {
     font-size: 1.8rem;
-    color: #e6e8e7;
+    color: var(--white-color);
 }
 
 #cotiza button {
@@ -286,25 +297,87 @@ a:hover {
 
 .col-pr {
     margin-bottom: 3rem;
+    position: relative;
+
+}
+
+.img-proyectos {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.c-texto {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.col-pr:hover .img-proyectos {
+    opacity: 0.3;
+}
+
+.col-pr:hover .c-texto {
+    opacity: 1;
+}
+
+.c-texto p {
+    background-color: var(--dark-blue);
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.2rem 2.8rem;
+    font-weight: 500;
+
+}
+
+/* .c-img {
+    position: relative;
+    text-align: center;
+    color: #18252eb6;
+
+}
+
+.c-img {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--dark-blue);
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #proyectos img {
-    opacity: 0.7;
+    opacity: 0.5;
     transition: all .2s ease-in-out;
 }
 
 #proyectos img:hover {
     transform: scale(1.1);
     opacity: 1;
-}
+} */
+
+
 
 @media screen and (max-width: 470px) {
     .hero h1 {
         font-size: 4rem;
+        line-height: 6rem;
     }
 
     h2 {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
     }
 
     h3 {
@@ -312,7 +385,7 @@ a:hover {
     }
 
     .serv-contenido p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 
 
