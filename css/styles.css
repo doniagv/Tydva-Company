@@ -9,7 +9,7 @@
   --light-grey: #a3a3a3;
   --grey-color: #b6bbb5;
   --white-color: #e6e8e7;
-  --bg-color: #f5f4f4;
+  --bg-color: #faf8f8f6;
 }
 
 * {
@@ -141,6 +141,7 @@ a:hover {
 }
 
 @keyframes bounce {
+
   0%,
   20%,
   50%,
