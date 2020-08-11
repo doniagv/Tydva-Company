@@ -406,7 +406,8 @@ a:hover {
 }
 
 @media screen and (max-width: 470px) {
-  .hero h1 {
+  .hero h1,
+  #hero-proyectos h1 {
     font-size: 4rem;
     line-height: 6rem;
   }
