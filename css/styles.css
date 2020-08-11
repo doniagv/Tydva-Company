@@ -375,7 +375,7 @@ a:hover {
   word-spacing: 0.3rem;
 }
 
-/* Pagina de proyectos */
+/* ------------------------------- Pagina de proyectos --------------------------- */
 
 #hero-proyectos {
   height: 100vh;
@@ -408,7 +408,49 @@ a:hover {
 #about-proyectos {
   margin-top: 10rem;
   margin-bottom: 10rem;
+  text-align: center;
 }
+
+#about-proyectos h2 {
+  margin-bottom: 5rem;
+}
+
+#about-proyectos p {
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  color: #666666;
+}
+
+#about-proyectos .fas {
+  color: var(--light-blue);
+}
+
+#galeria-proyectos {
+  margin-top: 6rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.proyecto-bloque {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.proyecto-titulo {
+  padding: 60px 0;
+  background-color: #18252e;
+  color: var(--white-color);
+}
+.proyecto-titulo h3 {
+  font-size: 3.5rem;
+}
+
+.pr {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ----------------- Css media code ----------------------- */
 
 @media (min-width: 1100px) {
   .servicios {
