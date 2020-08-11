@@ -105,6 +105,7 @@ p {
 }
 
 .hero h1 {
+  text-shadow: 2px 2px #18252e;
   letter-spacing: -0.5;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -125,7 +126,8 @@ a:hover {
   text-decoration: none;
 }
 
-.hero a {
+.hero a,
+#hero-proyectos a {
   color: rgba(255, 255, 255, 0.733);
 }
 
@@ -141,7 +143,6 @@ a:hover {
 }
 
 @keyframes bounce {
-
   0%,
   20%,
   50%,
@@ -372,6 +373,36 @@ a:hover {
 #footer p {
   color: var(--light-grey);
   word-spacing: 0.3rem;
+}
+
+/* Pagina de proyectos */
+
+#hero-proyectos {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(1, 2, 6, 0.651), rgba(1, 2, 6, 0.651)),
+    url(../img/paginaProyectos/pexels-expect-best-323772.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#hero-proyectos h1 {
+  text-shadow: 2px 2px #18252e;
+  letter-spacing: -0.5;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: 6rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 6rem;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 @media screen and (max-width: 470px) {

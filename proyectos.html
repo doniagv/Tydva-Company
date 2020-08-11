@@ -1,103 +1,147 @@
 <!DOCTYPE html>
-<html>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
-    rel="stylesheet"
-  />
-  <style>
-    body,
-    html {
-      height: 100%;
-      margin: 0;
-    }
-
-    .bgimg {
-      background-image: url("https://images.unsplash.com/photo-1501045337096-542a73dafa4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
-      height: 100%;
-      background-position: center;
-      background-size: cover;
-      position: relative;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-      font-size: 25px;
-    }
-
-    .topleft {
-      position: absolute;
-      top: 1rem;
-      left: 16px;
-    }
-
-    .bottomleft {
-      position: absolute;
-      bottom: 0;
-      left: 16px;
-    }
-
-    .middle {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-    hr {
-      margin: auto;
-      width: 40%;
-    }
-    a {
-      font-size: 35px;
-      font-weight: bold;
-      text-decoration: none;
-      color: white;
-    }
-  </style>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TYDVA</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/d591ab4a44.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
   <body>
-    <div class="bgimg">
-      <div class="topleft">
-        <a href="index.html">Inicio</a>
+    <!-- Menu de navegacion -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand marca" href="index.html">
+        <img src="img/logop.png" width="100" alt="imagen logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item navli">
+            <a class="nav-link" href="https://wa.link/d4q3ai" target="_blank"
+              ><i class="fab fa-whatsapp mr-3"></i>222 401 1354</a
+            >
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Nosotros</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Galería</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="proyectos.html">Proyectos</a>
+          </li>
+          <li class="nav-item navli">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
       </div>
-      <div class="middle">
-        <h1>Página en progreso</h1>
-        <hr />
-        <p id="demo" style="font-size: 30px;"></p>
+    </nav>
+
+    <!-- Seccion inicio proyectos -->
+
+    <section id="hero-proyectos">
+      <div class="container hero-inner">
+        <h1>Proyectos en colaboración</h1>
+        <div class="arrow bounce">
+          <a class="fas fa-chevron-down fa-2x" href="#about-proyectos"></a>
+        </div>
       </div>
-      <div class="bottomleft">
-        <p>Aquí podras ver nuestros increbiles proyectos</p>
+    </section>
+
+    <!-- Seccion about proyectos -->
+
+    <section id="about-proyectos"></section>
+
+    <!-- Seccion galeria proyectos -->
+
+    <section id="galeria-proyectos"></section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <a href="https://wa.link/d4q3ai" target="_blank"
+              ><img
+                loading="lazy"
+                src="img/icons/icono whatsapp.svg"
+                alt="icono whatsapp"
+                width="20px"
+            /></a>
+            <a
+              href="https://instagram.com/tydvidrio?igshid=1fa4m0vsksdmy"
+              target="_blank"
+              ><img
+                loading="lazy"
+                src="img/icons/icono-instagram.svg"
+                alt="icono whatsapp"
+                width="20px"
+            /></a>
+            <a
+              href="https://www.facebook.com/TDVA-Tecnolog%C3%ADa-y-Dise%C3%B1o-en-Vidrio-de-la-Angel%C3%B3polis-514367129026766/"
+              target="_blank"
+              ><img
+                loading="lazy"
+                src="img/icons/icono-facebook.svg"
+                alt="icono whatsapp"
+                width="20px"
+            /></a>
+            <a href="https://twitter.com/tydvaangelopol1" target="_blank"
+              ><img
+                loading="lazy"
+                src="img/icons/icono-twitter.svg"
+                alt="icono whatsapp"
+                width="20px"
+            /></a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <p class="copy">
+              &copy; 2020 T&DVA Tecnología y Diseño en Vidrio de la Angelópolis
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Aug 10, 2020 15:37:25").getTime();
-
-      // Update the count down every 1 second
-      var countdownfunction = setInterval(function () {
-        // Get todays date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now an the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML =
-          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-        // If the count down is over, write some text
-        if (distance < 0) {
-          clearInterval(countdownfunction);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-    </script>
+    </footer>
   </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"
+  ></script>
 </html>
