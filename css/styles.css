@@ -451,6 +451,10 @@ a:hover {
     font-size: 3rem;
   }
 
+  .serv-contenido {
+    text-align: justify;
+  }
+
   .serv-contenido p {
     font-size: 1.8rem;
     padding-bottom: 6rem;
