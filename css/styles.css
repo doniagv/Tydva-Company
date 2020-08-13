@@ -451,6 +451,25 @@ a:hover {
   padding: 0 !important;
 }
 
+/* --------------------------- Pagina galeria ------------------------ */
+
+#galeria {
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+#galeria p {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  font-size: 2rem;
+  color: var(--dark-grey);
+}
+
+#galeria img {
+  padding: 0.5rem;
+}
+
 /* ----------------- Css media code ----------------------- */
 
 @media (min-width: 1100px) {
@@ -537,5 +556,12 @@ a:hover {
 
   #footer p {
     font-size: 1.2rem;
+  }
+
+  #galeria p {
+    font-size: 1.8rem;
+  }
+  #galeria img {
+    height: 100%;
   }
 }
