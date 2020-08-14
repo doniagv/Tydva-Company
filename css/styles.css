@@ -431,6 +431,11 @@ a:hover {
   margin-bottom: 6rem;
 }
 
+#galeria-proyectos img {
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+}
+
 .proyecto-bloque {
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -440,6 +445,7 @@ a:hover {
   padding: 60px 0;
   background-color: #18252e;
   color: var(--white-color);
+  margin-bottom: 6rem;
 }
 .proyecto-titulo h3 {
   font-size: 3.5rem;
@@ -563,5 +569,10 @@ a:hover {
   }
   #galeria img {
     height: 100%;
+  }
+  #galeria-proyectos img {
+    height: 100%;
+    padding-right: 0;
+    padding-top: 2rem;
   }
 }
