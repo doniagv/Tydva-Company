@@ -442,8 +442,8 @@ a:hover {
 }
 
 .proyecto-titulo {
-  padding: 60px 0;
-  background-color: #18252e;
+  padding: 30px 0;
+  background-color: var(--dark-blue);
   color: var(--white-color);
   margin-bottom: 6rem;
 }
