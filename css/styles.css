@@ -255,7 +255,7 @@ a:hover {
   color: var(--white-color);
 }
 
-#cotiza button {
+#cotiza a {
   font-size: 2rem;
   margin-bottom: 5rem;
 }
