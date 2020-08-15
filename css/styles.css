@@ -176,6 +176,31 @@ a:hover {
   margin-bottom: 10rem;
 }
 
+.serv-tres {
+  margin-top: 3rem;
+  margin-bottom: 10rem;
+  color: #18405a;
+}
+
+.serv-tres span {
+  font-weight: bold;
+}
+
+.serv-tres p {
+  color: var(--dark-grey);
+  line-height: 2.2;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.serv-tres .fas {
+  margin-bottom: 7rem;
+}
+
+.serv-bloque {
+  padding: 5rem 5rem;
+}
+
 .nuestros-servicios {
   display: flex;
   flex-wrap: wrap;
