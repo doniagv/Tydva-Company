@@ -199,6 +199,8 @@ a:hover {
 
 .serv-bloque {
   padding: 5rem 5rem;
+  background-color: #fff;
+  border: 1px solid #b6bbb5;
 }
 
 .nuestros-servicios {
@@ -525,6 +527,7 @@ a:hover {
     line-height: 6rem;
   }
 }
+
 @media screen and (max-width: 470px) {
   .hero h1 {
     font-size: 4rem;
@@ -559,6 +562,10 @@ a:hover {
 
   .serv-bloque {
     margin-bottom: 7rem;
+  }
+
+  .serv-tres p {
+    text-align: justify;
   }
 
   #cotiza span {
