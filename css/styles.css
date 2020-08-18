@@ -179,7 +179,7 @@ a:hover {
 .serv-tres {
   margin-top: 3rem;
   margin-bottom: 10rem;
-  color: #18405a;
+  color: #666666;
 }
 
 .serv-tres span {
@@ -201,6 +201,13 @@ a:hover {
   padding: 5rem 5rem;
   background-color: #fff;
   border: 1px solid #b6bbb5;
+  transition: all 0.3s linear;
+}
+
+.serv-bloque:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 5px 5px rgb(235, 234, 234);
+  color: #f0d333;
 }
 
 .nuestros-servicios {
