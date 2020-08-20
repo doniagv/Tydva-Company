@@ -644,7 +644,7 @@ a:hover {
 }
 
 @media screen and (max-width: 770px) {
-  .row:first-of-type .col-md-6:first-child {
+  #info-about .row:first-of-type .col-md-6:first-child {
     order: 2;
   }
   #info-about h2 {
