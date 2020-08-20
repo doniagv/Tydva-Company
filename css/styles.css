@@ -160,6 +160,12 @@ a:hover {
   }
 }
 
+.p-hero {
+  background-color: #333333;
+  color: var(--white-color);
+  text-align: center;
+}
+
 /* Servicios */
 #services {
   margin-top: 5rem;
@@ -543,9 +549,9 @@ a:hover {
 .about-hero p {
   position: relative;
   z-index: 1;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: rgba(255, 255, 255, 0.5);
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /* ========================= */
