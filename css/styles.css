@@ -186,6 +186,7 @@ a:hover {
   margin-top: 3rem;
   margin-bottom: 10rem;
   color: #666666;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
 }
 
 .serv-tres span {
@@ -226,9 +227,7 @@ a:hover {
   flex-direction: column;
   background: #fff;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
-  -moz-box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
-  box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
+  box-shadow: 1px 11px 14px 3px rgba(30, 30, 60, 0.25);
 }
 
 .servicios:nth-child(2n + 2) {
@@ -335,6 +334,7 @@ a:hover {
   display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
 }
 
 .c-texto {
@@ -610,9 +610,7 @@ a:hover {
 
 .if-ba {
   background-color: #ffffffef;
-  -webkit-box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
-  -moz-box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
-  box-shadow: 0px 0px 11px 10px rgba(122, 121, 122, 1);
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
 }
 
 #info-about h2 {
@@ -641,6 +639,7 @@ a:hover {
   display: block;
   text-align: center;
   margin: auto;
+  box-shadow: 0px 15px 25px -4px rgba(30, 30, 60, 0.25);
 }
 
 #team .col-lg-4,
