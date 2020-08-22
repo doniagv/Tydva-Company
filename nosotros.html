@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -64,8 +66,8 @@
 
     <section class="about-hero">
       <div class="content">
-        <h2>Sobre Nosotros</h2>
-        <p>
+        <h2 class="animate-left">Sobre Nosotros</h2>
+        <p class="animate-right">
           Ofrecemos asesoría y soluciones Integrales para proyectos
           residenciales, comerciales y monumentales todo lo relacionado al
           vidrio, aluminio y sus derivados, peliculas de seguridad, decorativas
@@ -78,14 +80,14 @@
     <section id="info-about">
       <div class="container if-ba">
         <div class="row align-content-center">
-          <div class="col-lg-6 col-md-6 no-p">
+          <div class="col-lg-6 col-md-6 no-p animate-left">
             <img
               loading="lazy"
               src="img/about/Equipo_tydva_2.jpg"
               alt="Imagen equipo "
             />
           </div>
-          <div class="col-lg-6 col-md-6 align-self-center no-p">
+          <div class="col-lg-6 col-md-6 align-self-center no-p animate-right">
             <h2>Misión</h2>
             <p>
               Diseñar, armar, crear y comercializar cancelería de aluminio y
@@ -96,7 +98,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 align-self-center no-p">
+          <div class="col-lg-6 col-md-6 align-self-center no-p animate-left">
             <h2>Visión</h2>
             <p>
               Ser líder a nivel nacional superando las expectativas de nuestros
@@ -105,7 +107,7 @@
               nuestra empresa.
             </p>
           </div>
-          <div class="col-lg-6 col-md-6 no-p">
+          <div class="col-lg-6 col-md-6 no-p animate-right">
             <img
               loading="lazy"
               src="img/about/Equipo_tydva_4.jpg"
@@ -118,8 +120,9 @@
 
     <section id="team">
       <div class="container-fluid">
-        <h2>Más que un equipo de trabajo, una familia</h2>
+        <h2 class="animate-left">Más que un equipo de trabajo, una familia</h2>
         <img
+          class="animate-right"
           src="img/about/familia-img/equipo_familia_3.jpg"
           width="700px"
           alt=""
@@ -160,7 +163,7 @@
     </section>
 
     <footer id="footer">
-      <div class="container-fluid">
+      <div class="container-fluid normal">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="https://wa.link/d4q3ai" target="_blank"
@@ -205,6 +208,7 @@
       </div>
     </footer>
   </body>
+  <script src="./js/main.js"></script>
 
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

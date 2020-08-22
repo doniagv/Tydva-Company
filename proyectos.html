@@ -22,13 +22,16 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <!-- Menu de navegacion -->
@@ -77,7 +80,7 @@
     <!-- Seccion inicio proyectos -->
 
     <section id="hero-proyectos">
-      <div class="container hero-inner">
+      <div class="container hero-inner normal">
         <h1>Proyectos en colaboración</h1>
         <div class="arrow bounce">
           <a class="fas fa-chevron-down fa-2x" href="#about-proyectos"></a>
@@ -92,9 +95,8 @@
         <br />
         <br />
         <br />
-
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 animate-left">
             <h2>Proyectos realizados con la más alta calidad</h2>
             <p>
               Hemos trabajado con distintas empresas que requieren de la más
@@ -102,7 +104,7 @@
               increbiles, aquí te mostramos algunos.
             </p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 animate-right">
             <img
               src="img/paginaProyectos/undraw_QA_engineers_dg5p.svg"
               alt="ilustracion ingeniero"
@@ -122,7 +124,7 @@
 
     <section id="galeria-proyectos">
       <div class="container-fluid pr">
-        <div class="proyecto-bloque">
+        <div class="proyecto-bloque normal">
           <div class="proyecto-titulo">
             <h3>Don Pastor</h3>
           </div>
@@ -143,7 +145,7 @@
               class="im-sh"
           /></a>
         </div>
-        <div class="proyecto-bloque">
+        <div class="proyecto-bloque normal">
           <div class="proyecto-titulo">
             <h3>La Oriental</h3>
           </div>
@@ -164,7 +166,7 @@
               class="im-sh"
           /></a>
         </div>
-        <div class="proyecto-bloque">
+        <div class="proyecto-bloque normal">
           <div class="proyecto-titulo">
             <h3>H&M</h3>
           </div>
@@ -201,7 +203,7 @@
               class="im-sh"
           /></a>
         </div>
-        <div class="proyecto-bloque">
+        <div class="proyecto-bloque normal">
           <div class="proyecto-titulo">
             <h3>Farmacias del Ahorro</h3>
           </div>
@@ -238,7 +240,7 @@
               class="im-sh"
           /></a>
         </div>
-        <div class="proyecto-bloque">
+        <div class="proyecto-bloque normal">
           <div class="proyecto-titulo">
             <h3>Farmacias Benavides</h3>
           </div>
@@ -289,7 +291,7 @@
     <!-- Footer -->
 
     <footer id="footer">
-      <div class="container-fluid">
+      <div class="container-fluid normal">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-6">
             <a href="https://wa.link/d4q3ai" target="_blank"
@@ -334,6 +336,8 @@
       </div>
     </footer>
   </body>
+
+  <script src="./js/main.js"></script>
 
   <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

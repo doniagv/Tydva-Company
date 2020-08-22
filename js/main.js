@@ -1,4 +1,4 @@
-ScrollReveal().reveal(".normal", { delay: 500, reset: true });
+ScrollReveal().reveal(".normal", { delay: 500, reset: true, duration: 500 });
 // ScrollReveal().reveal(".servicios", { delay: 400, reset: true });
 ScrollReveal().reveal(".animate-left", {
   origin: "left",
