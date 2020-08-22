@@ -1,6 +1,6 @@
 ScrollReveal().reveal(".normal", {
   delay: 500,
-  reset: true,
+  reset: false,
   duration: 800,
   mobile: false,
   desktop: true,
