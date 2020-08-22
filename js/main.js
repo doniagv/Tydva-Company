@@ -1,5 +1,4 @@
-ScrollReveal().reveal(".container", { delay: 500, reset: true });
-ScrollReveal().reveal(".container-fluid", { delay: 500, reset: true });
+ScrollReveal().reveal(".normal", { delay: 500, reset: true });
 // ScrollReveal().reveal(".servicios", { delay: 400, reset: true });
 ScrollReveal().reveal(".animate-left", {
   origin: "left",
