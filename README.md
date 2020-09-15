@@ -1,4 +1,6 @@
 # Tydva-Company
-A website for a company of glass services
-You can visit the website (currently in development).
+A website for a glass and aluminum service company.
+You can visit the website here: 
 https://doniagv.github.io/Tydva-Company/
+
+
